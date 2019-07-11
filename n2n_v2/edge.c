@@ -50,8 +50,8 @@ struct SCM_def sd = {
 #define DEFAULT_HOLEPUNCH_INTERVAL      25 /* sec */
 #endif /* #if defined(DEBUG) */
 
-#define REGISTER_SUPER_INTERVAL_MIN     10   /* sec */
-#define REGISTER_SUPER_INTERVAL_MAX     120  /* sec */
+#define REGISTER_SUPER_INTERVAL_MIN     1   /* sec */
+#define REGISTER_SUPER_INTERVAL_MAX     10  /* sec */
 
 #define IFACE_UPDATE_INTERVAL           (30) /* sec. How long it usually takes to get an IP lease. */
 #define TRANSOP_TICK_INTERVAL           (10) /* sec */
